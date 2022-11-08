@@ -12,7 +12,7 @@ function copy(cb) {
   ]) 
     .pipe(gulp.dest('./js/'));
   gulp.src([
-    './node_modules/animate.css/animate.css'
+    './node_modules/animate.css/animate.css',
     './node_modules/bootstrap/dist/css/bootstrap.min.css',
     './node_modules/bootstrap/dist/css/bootstrap.min.css.map',
     './node_modules/bootstrap-icons/font/bootstrap-icons.css'
@@ -36,6 +36,7 @@ function build(cb) {
     .pipe(gulp.dest('./css/'));
   gulp.src([
     './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+    './node_modules/amplitudejs/dist/amplitude.js',
     './js/scripts.js'
   ])
     .pipe(concat('site.js'))

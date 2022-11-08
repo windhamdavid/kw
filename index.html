@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kris Windham</title>
+    <meta name="description" content="I've published this website as an archive for my brother. It's a collection of materials he published and had asked me to take care of it prior to his passing.">
+  	<meta property="og:site_name" content="Kris Windham" /> 
+  	<meta property="og:title" content="About - Kris Windham"/> 
+  	<meta property="og:description" content="An archive of piano Music from Kris Windham" />
+  	<meta property="og:image" content="https://kriswindham.com/img/kris.jpg" />
+  	<meta property="og:url" content="https://kriswindham.com" />
+  	<meta name="twitter:card" content="summary_large_image">
+    <link href="css/site.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto noto fw-bold fs-3" href="#">Kris Windham</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="container-fluid pt-lg-5 mt-5">
+    <div class="row">
+      <!-- Playlist Container -->
+      <div id="blue-playlist-container">
+  
+        <!-- Amplitude Player -->
+        <div id="amplitude-player">
+
+          <!-- Left Side Player -->
+          <div id="amplitude-left">
+            <img data-amplitude-song-info="cover_art_url" class="album-art"/>
+            <div class="amplitude-visualization" id="large-visualization">
+  
+            </div>
+            <div id="player-left-bottom">
+              <div id="time-container">
+                <span class="current-time">
+                  <span class="amplitude-current-minutes" ></span>:<span class="amplitude-current-seconds"></span>
+                </span>
+                <div id="progress-container">
+                  <div class="amplitude-wave-form">
+  
+                  </div>
+                  <input type="range" class="amplitude-song-slider"/>
+                  <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+                  <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+                </div>
+                <span class="duration">
+                  <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
+                </span>
+              </div>
+  
+              <div id="control-container">
+                <div id="repeat-container">
+                  <div class="amplitude-repeat" id="repeat"></div>
+                  <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                </div>
+  
+                <div id="central-control-container">
+                  <div id="central-controls">
+                    <div class="amplitude-prev" id="previous"></div>
+                    <div class="amplitude-play-pause" id="play-pause"></div>
+                    <div class="amplitude-next" id="next"></div>
+                  </div>
+                </div>
+  
+                <div id="volume-container">
+                  <div class="volume-controls">
+                    <div class="amplitude-mute amplitude-not-muted"></div>
+                    <input type="range" class="amplitude-volume-slider"/>
+                    <div class="ms-range-fix"></div>
+                  </div>
+                  <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle-right"></div>
+                </div>
+              </div>
+  
+              <div id="meta-container">
+                <span data-amplitude-song-info="name" class="song-name"></span>
+  
+                <div class="song-artist-album">
+                  <span data-amplitude-song-info="artist"></span>
+                  <span data-amplitude-song-info="album"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Left Side Player -->
+  
+          <!-- Right Side Player -->
+          <div id="amplitude-right">
+            <ul class="nav nav-tabs" id="playlists" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-secondary rounded-0 border-top-0 border-left-0 active" data-bs-toggle="tab" data-bs-target="#piano-tab-pane" type="button" role="tab" aria-controls="piano-tab-pane" aria-selected="true"><small>Piano</small></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-secondary rounded-0 border-top-0" data-bs-toggle="tab" data-bs-target="#keyboard-tab-pane" type="button" role="tab" aria-controls="keyboard-tab-pane" aria-selected="false"><small>Keyboard</small></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-secondary rounded-0 border-top-0" data-bs-toggle="tab" data-bs-target="#electronic-tab-pane" type="button" role="tab" aria-controls="electronic-tab-pane" aria-selected="false"><small>Electronic</small></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link text-secondary rounded-0 border-top-0" data-bs-toggle="tab" data-bs-target="#stream-tab-pane" type="button" role="tab" aria-controls="stream-tab-pane" aria-selected="false"><small>Streams</small></a>
+              </li>
+            </ul>
+            <div class="tab-content">
+
+              <!-- Piano -->
+              <div class="tab-pane fade show active" id="piano-tab-pane" role="tabpanel" aria-labelledby="piano-tab" tabindex="0">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Mazurka in A minor, Op. 17 No. 4</span>
+                    <span class="song-artist">Frédéric Chopin</span>
+                  </div>
+                  <span class="song-duration">1:27</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Doctor Gradus ad Parnassum</span>
+                    <span class="song-artist">Claude Debussy: Children's Corner, L. 113</span>
+                  </div>
+                  <span class="song-duration">5:41</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Sonatina in C Major, Op. 55 No. 1</span>
+                    <span class="song-artist">Friedrich Kuhlau</span>
+                  </div>
+                  <span class="song-duration">5:41</span>
+                </div>  
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Domenica</span>
+                    <span class="song-artist">2014 - Piano</span>
+                  </div>
+                  <span class="song-duration">6:39</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Poem #2</span>
+                    <span class="song-artist">2007</span>
+                  </div>
+                  <span class="song-duration">2:21</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Poem #3</span>
+                    <span class="song-artist">2007</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+
+              </div>
+
+              <!-- Keyboard -->
+              <div class="tab-pane fade" id="keyboard-tab-pane" role="tabpanel" aria-labelledby="keyboard-tab" tabindex="0">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Protos</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:27</span>
+                </div>
+              </div>
+
+              <!-- Electronic -->
+              <div class="tab-pane fade" id="electronic-tab-pane" role="tabpanel" aria-labelledby="electronic-tab" tabindex="0">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Protos</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:27</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Mercury</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">6:39</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="7">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Mystic</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="8">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Hermes</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="9">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Argentum</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="10">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Aurum</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="11">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Ouroboros</span>
+                    <span class="song-artist">Mystic</span>
+                  </div>
+                  <span class="song-duration">1:02</span>
+                </div>
+              </div>
+
+              <!-- streams -->
+              <div class="tab-pane fade" id="stream-tab-pane" role="tabpanel" aria-labelledby="stream-tab" tabindex="0">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Kris Windham Piano - Live</span>
+                    <span class="song-artist">2020</span>
+                  </div>
+                  <span class="song-duration">43:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Kris Windham Piano - Live</span>
+                    <span class="song-artist">2019</span>
+                  </div>
+                  <span class="song-duration">31:26</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">Kris Windham Piano - Live</span>
+                    <span class="song-artist">2019</span>
+                  </div>
+                  <span class="song-duration">55:16</span>
+                </div>
+                <p class="mx-5 text-decoration-underline">* Will set these up below after the licensing is in place. Please check back later.</p>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">* Kris Windham - Radio Show</span>
+                    <span class="song-artist">2017-2020</span>
+                  </div>
+                  <span class="song-duration">00:00</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">* Kris Windham - Country Brunch</span>
+                    <span class="song-artist">2019-2021</span>
+                  </div>
+                  <span class="song-duration">00:00</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="100">
+                  <div class="song-now-playing-icon-container">
+                    <div class="play-button-container"></div>
+                    <img class="now-playing" src="/img/audio/now-playing.svg"/>
+                  </div>
+                  <div class="song-meta-data">
+                    <span class="song-title">* Kris Windham - Sunday Sermon</span>
+                    <span class="song-artist">2020-2021</span>
+                  </div>
+                  <span class="song-duration">00:00</span>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+          <!-- End Right Side Player -->
+        </div>
+        <!-- End Amplitude Player -->
+    </div>
+  </div>
+</main>
+
+<div id="About" class="modal" tabindex="-1" aria-labelledby="About" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container px-lg-5">
+          <h4>Kristopher Roland Windham ( 1975-2021 )</h4>
+          <p>I've published this website as an archive for my brother. It's a collection of materials he published and had asked me to take care of it prior to his passing. Kris left behind an eclectic mix of audio recordings of him playing piano and other instruments, electronic audio creations, live performances, and radio broadcasts. He also had some software creations, photos, random graphics and other websites he had published.  The websites were under three domains: KrisWindham.com, CommandLineJunkie.com, and DrGradus.com. The first of which was obvious, the second relates to a computer programming tool, and the last  a reference to Gradus ad Parnassum, a latin phrase from Claude Debussy's piano composition that references the textbook on which Mozart learned to play.</p> 
+          <p>Kris wrote two bios that were no longer published. They read:
+            <blockquote class="px-lg-5">Music has been my source of inspiration since I was a young child. I always aspired to become a classical pianist. I've been playing my instrument now for 26 years and and I still feel the same way about it as I did when I first started.  I've been in many different directions, musically, but have always come back to my classical roots. My favorite composers include Shostakovich, Prokoviev, Bach, Debussy, and Richard Strauss. I also love the improvisational element that exist in jazz, and some rock and roll. I try to incorporate this element into the classical works I perform, in the same vein as Chopin. I really appreciate perfection, but do believe there is some room in the music for interpretation. I have been composing works for the piano since age 8 and now have quite a library of original pieces. I also enjoy recording and producing music as well. Recently, I injured my right index finger and have had to put my piano on hold for a while. While being a huge setback in my passion for music, it has helped me to further my programming skills. I began programming in BASIC on one of the first PCs at age 6 and have always had a knack for computers. In 1996 I worked for an online magazine handling online advertising. This was at a time when very few people had internet access. These days I spend most of my time with my family and hacking away on my laptop. I have plans to set up an online sound library and to continue recording my original music to use for multimedia and film. If you like the music your listening to right now, buy my CD, or just relax and enjoy. The best things in life are free...</blockquote>
+            <blockquote class="px-lg-5">Personal Website of Kris Windham <em>Programmer, Surfer, Father, and Pianist</em> I am a Programmer and surfer who works for Jack Russell Software in Charleston, SC.  We build pharmacy and healthcare applications in Ruby, Rails, Sinatra, Coffeescript and NodeJS.  Personally, I am very fond of nodeJS and CoffeeScript.I am very passionate about surfing and have 2 young daughters who like to surf with me. I am still working on setting up their team site at RootsSurf.com.I also enjoy screen printing and playing piano with the Monkey Men as well as composing and recording original classical compositions.  A sample of a jazz tune I composed, recorded, and performed by myself can be found alongside of examples of original piano compositions can be found and a little trance music. Github: https://github.com/gradus, Twitter: http://twitter.com/krwindham, Blog: http://krwindham.nodejitsu.com</a> Coderwall: http://coderwall.com/gradus</p>
+            </blockquote>
+            <p>Kris sometimes attached images to his recordings and I've used those in the audio player. He broadcasted audio shows that I'll set up to stream on demand once I have the licensing.  I'm  organizing and archiving the rest of the materials using the the links at the bottom of this page. He was somewhat skeptical of social media and adamant about his privacy so I'm only including materials he had published. I wrote an essay on Kris which is available @ <a class="text-secondary" href="https://davidawindham.com/kristopher-roland-windham/" target="_blank">https://davidawindham.com/kristopher-roland-windham/</a>.</p><p>Thanks for the visit and please feel free to contact me if you have any questions or comments.</p>
+            <p>Sincerely, <br>David A. Windham ( <a class="text-secondary" href="https://davidwindham.com/">davidwindham.com</a> )</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Images" class="modal" tabindex="-1" aria-labelledby="Images" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid px-lg-5 mb-5">
+          <h4>Images</h4>
+          <p>Kris published very few photos and these are the images Kris had published on his websites</p>
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="/img/kris.jpg"/>
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="/img/girls.jpg"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="/img/fish.jpg"/>
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="/img/doodods.jpg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Video" class="modal" tabindex="-1" aria-labelledby="Video" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid px-lg-5 mb-5">
+          <h4>Video</h4>
+          <p>Kris had published a few videos on YouTube</p>
+          <div class="row mt-5">
+            <h5>REDEMPTION</h5>
+            <p>(2017) Music copyright Kris Windham. Thanks Jeter.  This is the video for an original composition recorded last year by yours truly.</p>
+            <video controls src="/audio/redemption.mp4" type="video/mp4">
+          </div>
+          <div class="row mt-5">
+            <h5>Heart of Darkness The Hollow Men T.S. Eliot</h5>
+            <p>(2016) Marlon Brando as Col. Kurtz reading T.S.  Eliot from the film Apocalypse Now with the addition of an original house music audio track.</p>
+            <video controls src="/audio/hollow_men.mp4" type="video/mp4">
+          </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Code" class="modal" tabindex="-1" aria-labelledby="Code" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body"> 
+        <div class="container-fluid px-lg-5 mb-5">
+          <h4>Code</h4>
+          <p>Kris was particularly good at programming and fond of the Ruby language. The majority of Kris' work was published on his servers under various domains and some additional projects were published to third party repositories at <a class="text-secondary" target="_blank" href="https://github.com/gradus">github.com/gradus</a>. I'm listing all of them below and will fork the original repos to an archived account. </p>
+          <div class="row">
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a class="text-secondary" href="">EasyDoc.org</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">coffeeCup <- coffeekup</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">black-coffee</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">petulant-robot</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">simple-guestbook</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">stress</a> - 8 ball of good advice when things get tense</li>
+                <li class="list-group-item"><a class="text-secondary" href="">zen</a> - simple C code to display the zen of programming. When first learning Python, the first thing I did was type import this. I thought the poem or series of statements by Tim Peters was great. I still see a lot of truth and beauty in these statements. I look at code as art.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a class="text-secondary" href="">dophin-habits</a></li>
+                <li class="list-group-item"><a class="text-secondary" href="">saucer</a> - A minimalist node module reaching out with a welcome message</li>
+                <li class="list-group-item"><a class="text-secondary" href="">surf-scoreboard</a> - application to help scoring for surf contests.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-white py-5">
+  <div class="container-fluid">
+    <nav class="navbar fixed-bottom bg-light">
+      <div class="container mx-auto">
+        <div class="col d-flex justify-content-center">
+          <div class="btn-group " role="group" aria-label="extra-items">
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#About">About</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#Images">Images</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#Video">Video</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#Code">Code</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html> 
