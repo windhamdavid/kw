@@ -106,13 +106,13 @@ for( var i = 0; i < songElements.length; i++ ){
 }
 
 
-//var myModal = new bootstrap.Modal(document.getElementById('About'), {});
-//myModal.show();
-
-//document.addEventListener("DOMContentLoaded", function() {
-//	if (window.location.href.indexOf("#modal") > -1) {
-//		var mobileModal = new bootstrap.Modal(document.getElementById('mobile'));
-//		mobileModal.show();
-//	}
-//});
+const myModalEl = document.getElementById('Video');
+var video = document.getElementById("redemption");
+function stopVideo() {
+	video.pause();
+	video.currentTime = 0;
+}
+myModalEl.addEventListener('hidden.bs.modal', event => {
+  stopVideo();
+})
 
