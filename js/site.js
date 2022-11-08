@@ -13455,32 +13455,88 @@ Amplitude.init({
 			"cover_art_url": "/img/kuhlau.png"
 		},
     {
-			"name": "Domenica",
-			"artist": "2014",
-			"album": "Album - Unknown",
-			"url": "/audio/domenica.mp3",
-			"cover_art_url": "/img/scriabin.png"
+			"name": "China",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/01_China.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "Experiment in C Minor",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/02_Experiment_in_Cm.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "E Minor Diversion",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/03_EmDiversion.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "Poem",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/06_Poem.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "The Other Room",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/07_The_Other_Room.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "Smokin",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/08_Smokin.mp3",
+			"cover_art_url": "/img/icons.jpg"
 		},
 		{
 			"name": "Poem #2",
-			"artist": "2007",
-			"album": "Album - Unknown",
-			"url": "/audio/poem2.mp3",
-			"cover_art_url": "/img/unknown.png"
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/09_poem3.mp3",
+			"cover_art_url": "/img/icons.jpg"
 		},
 		{
-			"name": "Poem #3",
-			"artist": "2007",
-			"album": "Album - Unknown",
-			"url": "/audio/poem3.mp3",
-			"cover_art_url": "/img/unknown.png"
+			"name": "Poem #4",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/06_poem4.mp3",
+			"cover_art_url": "/img/icons.jpg"
 		},
 		{
-			"name": "Protos",
-			"artist": "2007",
-			"album": "Album - Unknown",
-			"url": "/audio/mystic/1-Protos.mp3",
-			"cover_art_url": "/img/unknown.png"
+			"name": "Prelude in G Minor",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/11_Prelude_in_Gm.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "Farout",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/12_farout.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "China #2",
+			"artist": "2010",
+			"album": "Icon",
+			"url": "/audio/icon/15_china2.mp3",
+			"cover_art_url": "/img/icons.jpg"
+		},
+		{
+			"name": "Clementi Sample",
+			"artist": "2010",
+			"album": "Diversions",
+			"url": "/audio/diversions/1_clementisample.mp3",
+			"cover_art_url": "/img/diversions.jpg"
 		},
 	],
   "callbacks": {
