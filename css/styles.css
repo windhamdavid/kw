@@ -370,8 +370,7 @@ div#progress-container {
     background: #6c6c6c; }
 
 div#control-container {
-  margin-top: 25px;
-  margin-top: 20px; }
+  margin-top: 50px; }
   div#control-container div#repeat-container {
     width: 25%;
     float: left;
@@ -599,6 +598,9 @@ input[type=range].amplitude-volume-slider:focus::-ms-fill-upper {
 input[type=range].amplitude-volume-slider::-ms-tooltip {
   display: none; }
 
+div#time-container {
+  padding-top:15px
+}
 div#time-container span.current-time {
   color: #607D8B;
   font-size: 14px;
@@ -654,12 +656,12 @@ body {
 }
 
 div.amplitude-wave-form{
-    margin-top: -14px;
+    margin-top: -65px;
 }
       
 div.amplitude-wave-form svg{
   stroke: #5f5f5f;
-  height: 50px;
+  height: 150px;
   width: 100%;
   stroke-width: .5px;
 }
