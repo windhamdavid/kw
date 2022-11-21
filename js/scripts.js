@@ -1,31 +1,32 @@
 Amplitude.init({
+	"volume": 100,
 	"songs": [
 		{
 			"name": "Scenes from Childhood, Op. 15 No. 1",
 			"artist": "Robert Schumann",
 			"album": "",
-			"url": "/audio/schumman.mp3",
+			"url": "/audio/piano/schumman.mp3",
 			"cover_art_url": "/img/schumann.png"
 		},
 		{
 			"name": "Mazurka in A minor, Op. 17 No. 4",
 			"artist": "Frédéric Chopin",
 			"album": "",
-			"url": "/audio/mazurka_am.mp3",
+			"url": "/audio/piano/mazurka_am.mp3",
 			"cover_art_url": "/img/chopin.png"
 		},
 		{
 			"name": "Doctor Gradus as Parnuassum",
 			"artist": "Claude Debussy",
 			"album": "Children's Corner Suite, L 113",
-			"url": "/audio/dr_gradus.m4a",
+			"url": "/audio/piano/dr_gradus.m4a",
 			"cover_art_url": "/img/gradus.jpg"
 		},
 		{
 			"name": "Sonatina in C Major, Op. 55 No. 1",
 			"artist": "Friedrich Kuhlau",
 			"album": "",
-			"url": "/audio/Kuhlau.mp3",
+			"url": "/audio/piano/Kuhlau.mp3",
 			"cover_art_url": "/img/kuhlau.png"
 		},
     {
@@ -169,6 +170,272 @@ Amplitude.init({
 			"cover_art_url": "/img/diversions.jpg"
 		},
 		{
+			"name": "Domenica",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/domenica.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Down",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/down.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Feeling Low",
+			"artist": "2015",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/Feeling_Low.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "First Flight",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/first_flight.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Halftime",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/halftime.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Ice",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/Ice.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Impression",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/impression.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Never Before Heard",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/never_before_heard.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "New Years Day",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/new-years-day.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Night Sun",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/NightSun.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Piano with Flute & Strings",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/piano-with-flute-strings.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Piece",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/piece-of-dookie.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Prelude 7",
+			"artist": "2017",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/Prelude7.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Sketch",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/scketch.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Soaring",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/Soaring.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Time Slips",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/timeslips.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Valentines",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/Valentines.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "Winter",
+			"artist": "Unknown",
+			"album": "Unknown",
+			"url": "/audio/piano_unknown/winter.mp3",
+			"cover_art_url": "/img/unknown.jpg"
+		},
+		{
+			"name": "1",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/1.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "2",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/2.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "3",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/3.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "4",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/4.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "5",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/5.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "6",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/6.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "7",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/7.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "8",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/8.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "9",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/9.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "10",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/11.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "11",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/11.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "12",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/12.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "13",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/13.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "14",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/14.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "15",
+			"artist": "2017",
+			"album": "Clips for Film",
+			"url": "/audio/clips-for-film/15.mp3",
+			"cover_art_url": "/img/clips.jpg"
+		},
+		{
+			"name": "Circle Clip",
+			"artist": "2011",
+			"album": "Delia",
+			"url": "/audio/delia/CircleClip.mp3",
+			"cover_art_url": "/img/delia.jpg"
+		},
+		{
+			"name": "No Woman No Cry",
+			"artist": "2011",
+			"album": "Delia",
+			"url": "/audio/delia/NoWomanNoCry.mp3",
+			"cover_art_url": "/img/delia.jpg"
+		},
+		{
+			"name": "One More Cup of Coffee",
+			"artist": "2011",
+			"album": "Delia",
+			"url": "/audio/delia/OneMoreCupofCoffee.mp3",
+			"cover_art_url": "/img/delia.jpg"
+		},
+		{
+			"name": "Rhapsody In O Flat Minor",
+			"artist": "2011",
+			"album": "Delia",
+			"url": "/audio/delia/RhapsodyInOFlatMinor.mp3",
+			"cover_art_url": "/img/delia.jpg"
+		},
+		{
+			"name": "The River",
+			"artist": "2011",
+			"album": "Delia",
+			"url": "/audio/delia/TheRiver.mp3",
+			"cover_art_url": "/img/delia.jpg"
+		},
+		{
 			"name": "Protos",
 			"artist": "2015",
 			"album": "Mystic",
@@ -200,7 +467,7 @@ Amplitude.init({
 			"name": "Agentum",
 			"artist": "2015",
 			"album": "Mystic",
-			"url": "/audio/mystic/5-Agentum.mp3",
+			"url": "/audio/mystic/5-Argentum.mp3",
 			"cover_art_url": "/img/mystic.png"
 		},
 		{
@@ -216,6 +483,160 @@ Amplitude.init({
 			"album": "Mystic",
 			"url": "/audio/mystic/7-Ouroboros.mp3",
 			"cover_art_url": "/img/mystic.png"
+		},
+		{
+			"name": "Orbital Habitat",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/1-Orbital_Habitat.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Ogon",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/2-Ogon.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Onus",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/3-Onus.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Dom Suka",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/4-Dom_Suka.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Sedulous",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/5-Sedulous.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Strakh",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/6-Strakh.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Blank",
+			"artist": "2015",
+			"album": "Suka",
+			"url": "/audio/suka/7-Blank.mp3",
+			"cover_art_url": "/img/suka.jpg"
+		},
+		{
+			"name": "Simple X",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/1-SimpleX.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Vox Dei",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/2-Vox_Dei.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Spiritus",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/3-Spiritus.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Isabellae",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/4-Isabellae.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Inlustris",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/5-Inlustris.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Oceanus",
+			"artist": "2015",
+			"album": "Vox Dei",
+			"url": "/audio/vox-dei/6-Oceanus.mp3",
+			"cover_art_url": "/img/vox.jpg"
+		},
+		{
+			"name": "Easter",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_Easter_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "3/26",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_3_26_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "3/27",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_3_27_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "3/28",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_3_28_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "3/29",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_3_29_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "4/10",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_4_10_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "4/24",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_4_24_2016.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "iWoody",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live_iwoody.mp3",
+			"cover_art_url": "/img/live.jpg"
+		},
+		{
+			"name": "iWoody(2)",
+			"artist": "2016",
+			"album": "Live",
+			"url": "/audio/LivePiano/KW-Live-on-iWoody.mp3",
+			"cover_art_url": "/img/live.jpg"
 		},
 	],
   "callbacks": {
