@@ -68,7 +68,7 @@ Amplitude.init({
 			"name": "Smokin",
 			"artist": "2010",
 			"album": "Icon",
-			"url": "/audio/icon/08_Smokin.mp3",
+			"url": "/audio/icon/08_smokin.mp3",
 			"cover_art_url": "/img/icons.jpg"
 		},
 		{
